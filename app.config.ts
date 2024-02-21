@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: 'Hack Le Chalet',
     description: '28-30 juin 2024 - Two days of hacking, fun and discussion in Alsace 🥨',
     url: 'https://hacklechalet.com',
-    image: 'https://hacklechalet.com/cover.png',
+    image: 'https://www.hacklechalet.com/cover.jpg',
     socials: {
       twitter: 'AlsaceDigitale',
     },
