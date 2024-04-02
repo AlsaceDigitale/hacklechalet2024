@@ -8,7 +8,7 @@ export default defineAppConfig({
       twitter: 'AlsaceDigitale',
     },
     aside: {
-      level: 0,
+      level: 1,
       collapsed: false,
       exclude: []
     },
@@ -19,18 +19,15 @@ export default defineAppConfig({
     header: {
       logo: true,
       showLinkIcon: true,
-      exclude: [],
+      exclude: ['/pages'],
       fluid: true
     },
     footer: {
-      textLinks: [
-        {
-          text: 'Alsace Digitale',
-          href: 'https://www.alsacedigitale.org',
-          target: '_blank',
-          rel: 'noopener'
-        }
-      ]  
+      credits: {
+        icon: '©',
+        text: 'Alsace Digitale 2024',
+        href: 'https://www.alsacedigitale.org'
+      }
     },
   }
 })
