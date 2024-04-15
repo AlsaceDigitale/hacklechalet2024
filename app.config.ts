@@ -1,14 +1,14 @@
 export default defineAppConfig({
   docus: {
     title: 'Hack Le Chalet',
-    description: '28-30 juin 2024 - Two days of hacking, fun and discussion in Alsace 🥨',
+    description: 'Q2-Q3 2024 Deux jours d\'aventure 🌲 et de hacking 🤖 en Alsace 🥨',
     url: 'https://hacklechalet.com',
     image: 'https://www.hacklechalet.com/cover.jpg',
     socials: {
       twitter: 'AlsaceDigitale',
     },
     aside: {
-      level: 0,
+      level: 1,
       collapsed: false,
       exclude: []
     },
@@ -19,18 +19,15 @@ export default defineAppConfig({
     header: {
       logo: true,
       showLinkIcon: true,
-      exclude: [],
+      exclude: ['/pages'],
       fluid: true
     },
     footer: {
-      textLinks: [
-        {
-          text: 'Alsace Digitale',
-          href: 'https://www.alsacedigitale.org',
-          target: '_blank',
-          rel: 'noopener'
-        }
-      ]  
+      credits: {
+        icon: '©',
+        text: 'Alsace Digitale 2024',
+        href: 'https://www.alsacedigitale.org'
+      }
     },
   }
 })
