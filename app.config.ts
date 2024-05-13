@@ -1,7 +1,7 @@
 export default defineAppConfig({
   docus: {
     title: 'Hack Le Chalet',
-    description: 'Q2-Q3 2024 Deux jours d\'aventure 🌲 et de hacking 🤖 en Alsace 🥨',
+    description: 'Du 6 au 8 septembre 2024. Deux jours d\'aventure 🌲 et de hacking 🤖 en Alsace 🥨',
     url: 'https://hacklechalet.com',
     image: 'https://www.hacklechalet.com/cover.jpg',
     socials: {
