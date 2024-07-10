@@ -27,7 +27,13 @@ export default defineAppConfig({
         icon: '©',
         text: 'Alsace Digitale 2024',
         href: 'https://www.alsacedigitale.org'
-      }
+      },
+      textLinks: [
+        {
+          text: 'FAQ',
+          href: '/pages/faq'
+        }
+      ]
     },
   }
 })
