@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img width="120" src="/HackLeChalet-logo.png" alt="Logo">
+    <img width="92" src="/hlc-logo.png" alt="Logo">
   </div>
 </template>
 <style scoped>
