@@ -6,6 +6,12 @@ export default defineAppConfig({
     image: 'https://www.hacklechalet.com/hlc-poster@0.5x.jpg',
     socials: {
       twitter: 'AlsaceDigitale',
+      youtube: 'AlsaceDigitale',
+      ad: {
+        label: 'Un évènement Alsace Digitale',
+        href: 'https://www.alsacedigitale.org',
+        icon: 'icon-park-twotone:rocket'
+      }
     },
     aside: {
       level: 1,
