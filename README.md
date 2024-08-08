@@ -1,14 +1,8 @@
-# Docus Starter
+# Hack Le Chalet Website
 
-Starter template for [Docus](https://docus.dev).
+## Node version
 
-## Clone
-
-Clone the repository (using `nuxi`):
-
-```bash
-npx nuxi init -t themes/docus
-```
+v18 minimum (use nvm)
 
 ## Setup
 
